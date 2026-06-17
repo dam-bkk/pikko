@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { createReferral, getReferrals, getBookCredits, ensureSeeded } from '@/lib/db';
+import { createReferral, getReferrals, getBookCredits, grantBookCredit, ensureSeeded } from '@/lib/db';
 
 async function getEmail(): Promise<string | null> {
   const session = await auth();
@@ -25,6 +25,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'referredName and referredEmail required' }, { status: 400 });
   }
   createReferral(email, referredName, referredEmail);
+  // Demo: grant the referrer a story credit immediately so the funnel
+  // (sponsor → earn credit → submit story) is walkable end-to-end.
+  // In production this should be gated on the referred user actually signing up.
+  grantBookCredit(email);
   const referrals = getReferrals(email);
   const credits   = getBookCredits(email);
   return NextResponse.json({ referrals, credits });

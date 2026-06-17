@@ -66,6 +66,7 @@ export default function SubmitPage() {
     const data = await res.json();
     if (data.error) { setRefErr(data.error); return; }
     setReferrals(data.referrals);
+    setCredits(data.credits ?? 0);
     setRefSent(true);
     setRefName(''); setRefEmail('');
   }
