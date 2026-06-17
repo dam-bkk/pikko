@@ -240,8 +240,10 @@ export default function FontsSection() {
                 : (CAPTION_L1[lang] ?? CAPTION_L1.en)}
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 20, position: 'relative', zIndex: 2 }}>
-              {FONTS.map((_, i) => (
+              {FONTS.map((font, i) => (
                 <button key={i} onClick={() => setActive(i)}
+                  aria-label={`Show ${font.copies.en.label} font sample`}
+                  aria-pressed={i === active}
                   style={{ width: i === active ? 24 : 8, height: 8, borderRadius: 99, backgroundColor: i === active ? f.color : 'rgba(255,255,255,0.2)', transition: 'all 0.25s', border: 'none', cursor: 'pointer', padding: 0 }} />
               ))}
             </div>

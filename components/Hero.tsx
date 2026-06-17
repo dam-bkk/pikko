@@ -22,7 +22,7 @@ function PhoneMockup() {
         style={{ backgroundColor: '#1A2B3C', borderColor: '#4A3580', boxShadow: '0 40px 80px rgba(0,0,0,0.5), 0 0 60px rgba(124,77,255,0.35)' }}>
         {/* Status bar */}
         <div className="flex items-center justify-between px-5" style={{ backgroundColor: '#141040', height: 28 }}>
-          <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: 10 }}>9:41</span>
+          <span style={{ color: 'rgba(255,255,255,0.75)', fontSize: 10, fontWeight: 600 }}>9:41</span>
           <div style={{ width: 18, height: 8, border: '1px solid rgba(255,255,255,0.25)', borderRadius: 3, display: 'flex', padding: 1 }}>
             <div style={{ width: '70%', backgroundColor: 'rgba(255,255,255,0.4)', borderRadius: 2 }} />
           </div>

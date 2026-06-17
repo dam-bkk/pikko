@@ -13,6 +13,10 @@ const { handlers, auth: _auth, signIn, signOut } = NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
+  // Required when running behind a reverse proxy (Caddy → pikko.damien.asia);
+  // without it NextAuth v5 rejects the forwarded host with UntrustedHost and
+  // every /api/auth/session call 500s.
+  trustHost: true,
   session: { strategy: 'jwt' },
   callbacks: {
     jwt({ token, user }) {
