@@ -1,0 +1,531 @@
+[
+  {
+    "id": "book-1",
+    "title_thai": "หมาของฉัน",
+    "title_english": "My Dog",
+    "title_romanization": "Mǎa Khǒong Chan",
+    "level": "Level 1",
+    "theme": "friendship, daily life, pets",
+    "core_vocabulary": [
+      {
+        "thai": "หมา",
+        "romanization": "mǎa",
+        "english": "dog",
+        "part_of_speech": "noun",
+        "tone": "rising"
+      },
+      {
+        "thai": "ของฉัน",
+        "romanization": "khǒong chan",
+        "english": "my / mine",
+        "part_of_speech": "possessive",
+        "tone": "falling + mid"
+      },
+      {
+        "thai": "กิน",
+        "romanization": "kin",
+        "english": "eat",
+        "part_of_speech": "verb",
+        "tone": "mid"
+      },
+      {
+        "thai": "วิ่ง",
+        "romanization": "wîng",
+        "english": "run",
+        "part_of_speech": "verb",
+        "tone": "falling"
+      },
+      {
+        "thai": "นอน",
+        "romanization": "nɔɔn",
+        "english": "sleep",
+        "part_of_speech": "verb",
+        "tone": "mid"
+      },
+      {
+        "thai": "ชอบ",
+        "romanization": "chɔ̂ɔp",
+        "english": "like / love",
+        "part_of_speech": "verb",
+        "tone": "falling"
+      },
+      {
+        "thai": "ชื่อ",
+        "romanization": "chʉ̂ʉ",
+        "english": "name / is called",
+        "part_of_speech": "noun/verb",
+        "tone": "falling"
+      }
+    ],
+    "character_sheet": {
+      "character_name": "น้องมาลี (Nóong Maa-lii)",
+      "physical_description": {
+        "age": "6 years old",
+        "gender": "girl",
+        "ethnicity": "Thai",
+        "hair": "short black hair in two small pigtails with soft pink ties",
+        "face": "round face, bright dark brown eyes, small round nose, gentle smile",
+        "skin_tone": "warm light brown Thai skin tone",
+        "outfit": "white short-sleeve blouse with tiny yellow flower print, soft pink shorts, white flat sandals — NEVER changes across pages",
+        "height_build": "small and slight, childlike proportions"
+      },
+      "personality": ["curious and gentle", "warm and affectionate", "slightly shy"],
+      "recurring_objects": [
+        "small grey stuffed elephant with a blue ribbon bow (she always carries or keeps nearby)",
+        "red water bottle with a star sticker"
+      ],
+      "art_style_reference": "Oliver Jeffers meets Thai illustrator Pomme Chan — gentle hand-drawn linework, generous white space, slightly muted pastels with warm golden accents, never harsh outlines"
+    },
+    "illustration_style_bible": {
+      "medium": "flat digital illustration with subtle paper grain texture",
+      "palette": "warm cream background #FDF6E8, soft sage green #B8D4B0, dusty coral #E8A598, deep navy accents #2D3E5C, golden highlight #F4C95D",
+      "linework": "soft, hand-drawn, slightly imperfect lines, no harsh black outlines — use deep navy for outlines at low opacity",
+      "composition": "generous white space, character centered or rule-of-thirds, no clutter, single focal point per page",
+      "lighting": "soft natural daylight, gentle warm shadows, no harsh contrast",
+      "mood": "warm, calm, inviting, slightly cozy, safe",
+      "forbidden": "no text in image, no logos, no scary elements, no sharp contrast, no 3D rendering, no anime style, no generic stock illustration look, no clipart"
+    },
+    "pages": [
+      {
+        "page_number": 1,
+        "thai_text": "นี่คือมาลี",
+        "romanization": "Nîi khʉʉ Maa-lii",
+        "ipa": "nîː kʰɯː maːliː",
+        "english_translation": "This is Malee.",
+        "syllable_breakdown": "นี่ / คือ / มา / ลี",
+        "new_vocabulary": ["นี่คือ (this is)", "มาลี (Malee — name)"],
+        "repeated_pattern": "นี่คือ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee stands in a simple Thai-style garden, smiling directly at the viewer with a small wave. Behind her: soft green garden with a single frangipani tree in bloom, a traditional Thai wooden house porch partially visible. Morning golden light. Camera: medium shot, waist-up. Foreground: a few green blades of grass. Background: soft cream sky. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "นี่", "start_ms": 0, "end_ms": 350},
+            {"syllable": "คือ", "start_ms": 500, "end_ms": 850},
+            {"syllable": "มา", "start_ms": 1000, "end_ms": 1300},
+            {"syllable": "ลี", "start_ms": 1300, "end_ms": 1700}
+          ]
+        }
+      },
+      {
+        "page_number": 2,
+        "thai_text": "นี่คือหมา",
+        "romanization": "Nîi khʉʉ mǎa",
+        "ipa": "nîː kʰɯː mǎː",
+        "english_translation": "This is the dog.",
+        "syllable_breakdown": "นี่ / คือ / หมา",
+        "new_vocabulary": ["หมา (dog)"],
+        "repeated_pattern": "นี่คือ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee kneels on the grass and gestures toward a small shaggy brown Thai dog (bangkaew mix, medium size, friendly ears up, soft eyes, wagging tail). The dog looks at viewer. Malee has a warm smile of pride. Setting: same Thai garden, morning light. Camera: medium shot, showing both child and dog clearly. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "นี่", "start_ms": 0, "end_ms": 350},
+            {"syllable": "คือ", "start_ms": 500, "end_ms": 850},
+            {"syllable": "หมา", "start_ms": 1000, "end_ms": 1500}
+          ]
+        }
+      },
+      {
+        "page_number": 3,
+        "thai_text": "หมาชื่อดำ",
+        "romanization": "Mǎa chʉ̂ʉ Dam",
+        "ipa": "mǎː tɕʰɯ̂ː dam",
+        "english_translation": "The dog's name is Dam.",
+        "syllable_breakdown": "หมา / ชื่อ / ดำ",
+        "new_vocabulary": ["ชื่อ (name, is called)", "ดำ (black — the dog's name)"],
+        "repeated_pattern": "___ ชื่อ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Close-up portrait of the friendly brown Thai dog (Dam) sitting and looking up adoringly. Malee's hand is visible at the edge reaching to pet him. The dog's eyes are soft and warm. Thai garden background, very blurred. Camera: close-up, dog is centered. Golden light on the dog's fur. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "หมา", "start_ms": 0, "end_ms": 400},
+            {"syllable": "ชื่อ", "start_ms": 550, "end_ms": 900},
+            {"syllable": "ดำ", "start_ms": 1050, "end_ms": 1500}
+          ]
+        }
+      },
+      {
+        "page_number": 4,
+        "thai_text": "หมากินข้าว",
+        "romanization": "Mǎa kin khâao",
+        "ipa": "mǎː kin kʰâːw",
+        "english_translation": "The dog eats rice.",
+        "syllable_breakdown": "หมา / กิน / ข้าว",
+        "new_vocabulary": ["กิน (eat)", "ข้าว (rice / food)"],
+        "repeated_pattern": "หมา ___ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — The brown Thai dog Dam eats eagerly from a simple white ceramic bowl on the floor. Malee stands to the side watching with delight, hands clasped. The bowl has a little Thai pattern on the rim. Setting: inside a warm Thai home, wooden floor, soft afternoon light through a window. Camera: medium shot. Foreground: the food bowl. Empty space at the bottom for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "หมา", "start_ms": 0, "end_ms": 400},
+            {"syllable": "กิน", "start_ms": 550, "end_ms": 900},
+            {"syllable": "ข้าว", "start_ms": 1050, "end_ms": 1550}
+          ]
+        }
+      },
+      {
+        "page_number": 5,
+        "thai_text": "หมาวิ่งไป",
+        "romanization": "Mǎa wîng pai",
+        "ipa": "mǎː wîŋ paj",
+        "english_translation": "The dog runs away!",
+        "syllable_breakdown": "หมา / วิ่ง / ไป",
+        "new_vocabulary": ["วิ่ง (run)", "ไป (go / away)"],
+        "repeated_pattern": "หมา ___ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — The dog Dam runs joyfully across a green Thai garden, paws off the ground mid-sprint, ears back, tongue out and happy. Motion lines subtly indicated. Malee chases behind, arms out, laughing with delight. Both are energetic and happy. Camera: wide shot showing garden. Bright morning light. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "หมา", "start_ms": 0, "end_ms": 400},
+            {"syllable": "วิ่ง", "start_ms": 550, "end_ms": 900},
+            {"syllable": "ไป", "start_ms": 1050, "end_ms": 1500}
+          ]
+        }
+      },
+      {
+        "page_number": 6,
+        "thai_text": "มาลีชอบหมา",
+        "romanization": "Maa-lii chɔ̂ɔp mǎa",
+        "ipa": "maːliː tɕʰɔ̂ːp mǎː",
+        "english_translation": "Malee loves the dog.",
+        "syllable_breakdown": "มา / ลี / ชอบ / หมา",
+        "new_vocabulary": ["ชอบ (like / love)"],
+        "repeated_pattern": "___ ชอบ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee sits cross-legged on a woven mat, hugging the dog Dam, who licks her cheek. Both look genuinely happy. The stuffed grey elephant sits nearby. Warm golden afternoon light inside a Thai home. Camera: medium close-up, both figures centered. Empty space at the bottom for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "มา", "start_ms": 0, "end_ms": 300},
+            {"syllable": "ลี", "start_ms": 300, "end_ms": 600},
+            {"syllable": "ชอบ", "start_ms": 750, "end_ms": 1100},
+            {"syllable": "หมา", "start_ms": 1250, "end_ms": 1700}
+          ]
+        }
+      },
+      {
+        "page_number": 7,
+        "thai_text": "หมานอนหลับ",
+        "romanization": "Mǎa nɔɔn làp",
+        "ipa": "mǎː nɔːn làp",
+        "english_translation": "The dog is sleeping.",
+        "syllable_breakdown": "หมา / นอน / หลับ",
+        "new_vocabulary": ["นอน (sleep)", "หลับ (asleep / sleep)"],
+        "repeated_pattern": "หมา ___ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — The dog Dam is curled up asleep on a small round woven cushion on a wooden floor. Eyes closed, body relaxed, gently breathing. Malee tiptoes past in the background trying not to wake him, finger to lips, eyes wide with care. Soft warm evening light. Camera: medium shot, dog in foreground. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "หมา", "start_ms": 0, "end_ms": 400},
+            {"syllable": "นอน", "start_ms": 550, "end_ms": 900},
+            {"syllable": "หลับ", "start_ms": 1050, "end_ms": 1500}
+          ]
+        }
+      },
+      {
+        "page_number": 8,
+        "thai_text": "หมาของฉัน",
+        "romanization": "Mǎa khǒong chan",
+        "ipa": "mǎː kʰɔ̌ːŋ tɕʰan",
+        "english_translation": "My dog.",
+        "syllable_breakdown": "หมา / ของ / ฉัน",
+        "new_vocabulary": ["ของฉัน (my / mine)"],
+        "repeated_pattern": "___ ของฉัน",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Warm, final full-page portrait: Malee sits on Thai porch steps at sunset, the dog Dam sitting beside her. Both look out at the warm golden horizon. The stuffed elephant is in her lap. The scene feels peaceful, safe, and complete. Camera: medium-wide, slightly low angle. Warm orange-golden sunset light. Empty space at the bottom for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "หมา", "start_ms": 0, "end_ms": 500},
+            {"syllable": "ของ", "start_ms": 650, "end_ms": 1000},
+            {"syllable": "ฉัน", "start_ms": 1150, "end_ms": 1600}
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "book-2",
+    "title_thai": "ผลไม้อร่อย",
+    "title_english": "Yummy Fruit",
+    "title_romanization": "Phǒn Lamái Arɔ̀ɔi",
+    "level": "Level 1",
+    "theme": "food, family, taste, Thai fruits",
+    "core_vocabulary": [
+      {
+        "thai": "กิน",
+        "romanization": "kin",
+        "english": "eat",
+        "part_of_speech": "verb",
+        "tone": "mid"
+      },
+      {
+        "thai": "อร่อย",
+        "romanization": "arɔ̀ɔi",
+        "english": "delicious / yummy",
+        "part_of_speech": "adjective",
+        "tone": "falling"
+      },
+      {
+        "thai": "มะม่วง",
+        "romanization": "mamûang",
+        "english": "mango",
+        "part_of_speech": "noun",
+        "tone": "mid + falling"
+      },
+      {
+        "thai": "เงาะ",
+        "romanization": "ngɔ́",
+        "english": "rambutan",
+        "part_of_speech": "noun",
+        "tone": "high"
+      },
+      {
+        "thai": "ลำไย",
+        "romanization": "lamyai",
+        "english": "longan",
+        "part_of_speech": "noun",
+        "tone": "mid + mid"
+      },
+      {
+        "thai": "แม่",
+        "romanization": "mɛ̂ɛ",
+        "english": "mom / mother",
+        "part_of_speech": "noun",
+        "tone": "falling"
+      }
+    ],
+    "character_sheet": {
+      "character_name": "น้องมาลี (Nóong Maa-lii) — same character as Book 1",
+      "physical_description": {
+        "age": "6 years old",
+        "gender": "girl",
+        "ethnicity": "Thai",
+        "hair": "short black hair in two small pigtails with soft pink ties",
+        "face": "round face, bright dark brown eyes, small round nose, gentle smile",
+        "skin_tone": "warm light brown Thai skin tone",
+        "outfit": "white short-sleeve blouse with tiny yellow flower print, soft pink shorts, white flat sandals — NEVER changes across pages",
+        "height_build": "small and slight, childlike proportions"
+      },
+      "personality": ["curious and gentle", "warm and affectionate", "slightly shy"],
+      "recurring_objects": [
+        "small grey stuffed elephant with a blue ribbon bow (she always carries or keeps nearby)",
+        "red water bottle with a star sticker"
+      ],
+      "art_style_reference": "Oliver Jeffers meets Thai illustrator Pomme Chan — gentle hand-drawn linework, generous white space, slightly muted pastels with warm golden accents, never harsh outlines"
+    },
+    "illustration_style_bible": {
+      "medium": "flat digital illustration with subtle paper grain texture",
+      "palette": "warm cream background #FDF6E8, soft sage green #B8D4B0, dusty coral #E8A598, deep navy accents #2D3E5C, golden highlight #F4C95D",
+      "linework": "soft, hand-drawn, slightly imperfect lines, no harsh black outlines — use deep navy for outlines at low opacity",
+      "composition": "generous white space, character centered or rule-of-thirds, no clutter, single focal point per page",
+      "lighting": "soft natural daylight, gentle warm shadows, no harsh contrast",
+      "mood": "warm, calm, inviting, slightly cozy, safe",
+      "forbidden": "no text in image, no logos, no scary elements, no sharp contrast, no 3D rendering, no anime style, no generic stock illustration look, no clipart"
+    },
+    "pages": [
+      {
+        "page_number": 1,
+        "thai_text": "นี่คือมาลี",
+        "romanization": "Nîi khʉʉ Maa-lii",
+        "ipa": "nîː kʰɯː maːliː",
+        "english_translation": "This is Malee.",
+        "syllable_breakdown": "นี่ / คือ / มา / ลี",
+        "new_vocabulary": ["นี่คือ (this is)"],
+        "repeated_pattern": "นี่คือ ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee stands in a bright traditional Thai kitchen, smiling warmly at the viewer. Behind her: a wooden kitchen counter with colorful Thai fruits arranged neatly. Vibrant tropical fruits visible: green mangoes, red rambutan clusters, golden longan. Warm morning light streams through a window. Camera: medium shot. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "นี่", "start_ms": 0, "end_ms": 350},
+            {"syllable": "คือ", "start_ms": 500, "end_ms": 850},
+            {"syllable": "มา", "start_ms": 1000, "end_ms": 1300},
+            {"syllable": "ลี", "start_ms": 1300, "end_ms": 1700}
+          ]
+        }
+      },
+      {
+        "page_number": 2,
+        "thai_text": "ฉันกินมะม่วง",
+        "romanization": "Chan kin mamûang",
+        "ipa": "tɕʰan kin mamuâŋ",
+        "english_translation": "I eat mango.",
+        "syllable_breakdown": "ฉัน / กิน / มะ / ม่วง",
+        "new_vocabulary": ["ฉัน (I / me)", "มะม่วง (mango)"],
+        "repeated_pattern": "ฉันกิน ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee holds a bright golden-yellow mango slice with both hands and takes a bite, eyes squeezed with happiness. A white plate with more sliced mango is on the table in front of her. The mango is beautifully illustrated: ripe, golden, juicy-looking. Setting: Thai kitchen table. Camera: close-medium shot, Malee and mango centered. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "ฉัน", "start_ms": 0, "end_ms": 350},
+            {"syllable": "กิน", "start_ms": 500, "end_ms": 850},
+            {"syllable": "มะ", "start_ms": 1000, "end_ms": 1250},
+            {"syllable": "ม่วง", "start_ms": 1250, "end_ms": 1700}
+          ]
+        }
+      },
+      {
+        "page_number": 3,
+        "thai_text": "มะม่วงอร่อย",
+        "romanization": "Mamûang arɔ̀ɔi",
+        "ipa": "mamuâŋ ʔarɔ̀ːj",
+        "english_translation": "Mango is delicious!",
+        "syllable_breakdown": "มะ / ม่วง / อ / ร่อย",
+        "new_vocabulary": ["อร่อย (delicious / yummy)"],
+        "repeated_pattern": "___ อร่อย",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee's face is the center: eyes wide open and sparkling, huge grin, showing pure delight. She holds the mango up. A large beautifully ripe mango is centered in foreground. Warm golden light makes the mango glow. Camera: portrait close-up. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "มะ", "start_ms": 0, "end_ms": 300},
+            {"syllable": "ม่วง", "start_ms": 300, "end_ms": 700},
+            {"syllable": "อ", "start_ms": 850, "end_ms": 1050},
+            {"syllable": "ร่อย", "start_ms": 1050, "end_ms": 1600}
+          ]
+        }
+      },
+      {
+        "page_number": 4,
+        "thai_text": "ฉันกินเงาะ",
+        "romanization": "Chan kin ngɔ́",
+        "ipa": "tɕʰan kin ŋɔ́ʔ",
+        "english_translation": "I eat rambutan.",
+        "syllable_breakdown": "ฉัน / กิน / เงาะ",
+        "new_vocabulary": ["เงาะ (rambutan)"],
+        "repeated_pattern": "ฉันกิน ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee holds a bright red spiky rambutan fruit in both hands, peeling it open to reveal the white flesh inside. Her expression is curious and excited. A small pile of red rambutan sits in a basket on the table. The hairy red skin of the fruit is detailed and beautiful. Camera: medium shot. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "ฉัน", "start_ms": 0, "end_ms": 350},
+            {"syllable": "กิน", "start_ms": 500, "end_ms": 850},
+            {"syllable": "เงาะ", "start_ms": 1000, "end_ms": 1500}
+          ]
+        }
+      },
+      {
+        "page_number": 5,
+        "thai_text": "เงาะอร่อย",
+        "romanization": "Ngɔ́ arɔ̀ɔi",
+        "ipa": "ŋɔ́ʔ ʔarɔ̀ːj",
+        "english_translation": "Rambutan is delicious!",
+        "syllable_breakdown": "เงาะ / อ / ร่อย",
+        "new_vocabulary": [],
+        "repeated_pattern": "___ อร่อย",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee has eaten the rambutan and now holds the empty peel with a huge satisfied smile, eyes curved with joy, cheeks full. Several whole red rambutan fruits and one opened one are arranged beautifully in the foreground. Camera: close-medium. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "เงาะ", "start_ms": 0, "end_ms": 450},
+            {"syllable": "อ", "start_ms": 600, "end_ms": 800},
+            {"syllable": "ร่อย", "start_ms": 800, "end_ms": 1400}
+          ]
+        }
+      },
+      {
+        "page_number": 6,
+        "thai_text": "ฉันกินลำไย",
+        "romanization": "Chan kin lamyai",
+        "ipa": "tɕʰan kin lamjaj",
+        "english_translation": "I eat longan.",
+        "syllable_breakdown": "ฉัน / กิน / ลำ / ไย",
+        "new_vocabulary": ["ลำไย (longan)"],
+        "repeated_pattern": "ฉันกิน ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee pops a small round longan into her mouth, one hand still holding a cluster of the small brown-skinned fruits on their stem. The longan cluster is illustrated beautifully — warm tan-brown skin, hanging on a branch-like stem. Setting: same Thai kitchen, afternoon light. Camera: medium shot. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "ฉัน", "start_ms": 0, "end_ms": 350},
+            {"syllable": "กิน", "start_ms": 500, "end_ms": 850},
+            {"syllable": "ลำ", "start_ms": 1000, "end_ms": 1250},
+            {"syllable": "ไย", "start_ms": 1250, "end_ms": 1700}
+          ]
+        }
+      },
+      {
+        "page_number": 7,
+        "thai_text": "แม่กินด้วย",
+        "romanization": "Mɛ̂ɛ kin dûai",
+        "ipa": "mɛ̂ː kin dûaj",
+        "english_translation": "Mom eats too.",
+        "syllable_breakdown": "แม่ / กิน / ด้วย",
+        "new_vocabulary": ["แม่ (mom)", "ด้วย (too / also)"],
+        "repeated_pattern": "___ กิน ด้วย",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Malee's mom (a warm, gentle Thai woman in her early 30s, dark hair tied back, wearing a soft floral blouse) sits next to Malee at the table and reaches for a longan from the shared plate. Both are smiling and happy together. All three fruits are on the table. Camera: medium shot showing both figures. Warm afternoon light. Empty space at the top for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "แม่", "start_ms": 0, "end_ms": 400},
+            {"syllable": "กิน", "start_ms": 550, "end_ms": 900},
+            {"syllable": "ด้วย", "start_ms": 1050, "end_ms": 1550}
+          ]
+        }
+      },
+      {
+        "page_number": 8,
+        "thai_text": "อร่อยมาก",
+        "romanization": "Arɔ̀ɔi mâak",
+        "ipa": "ʔarɔ̀ːj mâːk",
+        "english_translation": "So delicious!",
+        "syllable_breakdown": "อ / ร่อย / มาก",
+        "new_vocabulary": ["มาก (very / a lot)"],
+        "repeated_pattern": "อร่อย ___",
+        "image_prompt": "CHARACTER SHEET — น้องมาลี: 6-year-old Thai girl, short black hair in two small pigtails with pink ties, round face, bright dark eyes, warm light brown skin, white blouse with tiny yellow flowers, pink shorts, white sandals, carries small grey stuffed elephant with blue ribbon. Art style: Oliver Jeffers meets Pomme Chan — gentle hand-drawn lines, muted pastels with golden accents, never harsh outlines. STYLE BIBLE — medium: flat digital illustration with subtle paper grain texture. Palette: warm cream #FDF6E8, sage green #B8D4B0, dusty coral #E8A598, deep navy #2D3E5C, golden #F4C95D. Linework: soft, hand-drawn, slightly imperfect, deep navy at low opacity. Composition: generous white space, single focal point, no clutter. Lighting: soft natural daylight, gentle warm shadows. Mood: warm, calm, inviting, cozy. Forbidden: no text, no logos, no 3D, no anime. SCENE — Final warm double portrait: Malee and her mom together, both laughing with full bellies and happy faces. Three beautifully illustrated Thai fruits sit in the foreground arranged like a still life: a golden mango, red rambutan, and tan longan cluster. Warm late-afternoon golden light fills the scene. Camera: wide medium shot. Soft glow on everything. Empty space at the bottom for text.",
+        "audio_specs": {
+          "voice": "native Thai female, warm and gentle, age 25-35",
+          "speed": "0.85x natural pace",
+          "pause_after_each_syllable": true,
+          "format": "mp3, 22kHz mono",
+          "karaoke_timestamps": [
+            {"syllable": "อ", "start_ms": 0, "end_ms": 250},
+            {"syllable": "ร่อย", "start_ms": 250, "end_ms": 700},
+            {"syllable": "มาก", "start_ms": 850, "end_ms": 1350}
+          ]
+        }
+      }
+    ]
+  }
+]

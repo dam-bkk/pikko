@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#F0E8FF"/>
+  </g>
+  <g id="avatar-body">
+    <ellipse cx="100" cy="188" rx="38" ry="18" fill="#7B5EA7"/>
+    <!-- Chest feathers visible -->
+    <ellipse cx="100" cy="178" rx="30" ry="16" fill="#9B74E8" fill-opacity="0.5"/>
+  </g>
+  <!-- Ear tufts -->
+  <g id="avatar-extras">
+    <ellipse cx="76" cy="62" rx="10" ry="18" fill="#7B5EA7" transform="rotate(-14,76,62)"/>
+    <ellipse cx="124" cy="62" rx="10" ry="18" fill="#7B5EA7" transform="rotate(14,124,62)"/>
+    <!-- Subtle feather pattern hints -->
+    <path d="M68 155 Q100 148 132 155" stroke="#6B5B95" stroke-width="2" fill="none" fill-opacity="0.4"/>
+    <path d="M72 162 Q100 156 128 162" stroke="#6B5B95" stroke-width="1.5" fill="none" fill-opacity="0.3"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <circle cx="100" cy="112" r="56" fill="#9B74E8"/>
+    <!-- Facial disk -->
+    <ellipse cx="100" cy="116" rx="44" ry="42" fill="#7B5EA7" fill-opacity="0.3"/>
+    <!-- Beak -->
+    <polygon points="100,120 93,130 107,130" fill="#FF6635"/>
+    <polygon points="100,120 93,130 100,126" fill="#E05020"/>
+  </g>
+  <!-- Eyes — big circular, wide-open alertness -->
+  <g id="avatar-eyes">
+    <!-- Eye rings -->
+    <circle cx="80" cy="108" r="20" fill="#2D1A4A"/>
+    <circle cx="120" cy="108" r="20" fill="#2D1A4A"/>
+    <!-- Iris -->
+    <circle cx="80" cy="108" r="14" fill="#FFD23F"/>
+    <circle cx="120" cy="108" r="14" fill="#FFD23F"/>
+    <!-- Pupils -->
+    <circle cx="82" cy="108" r="8" fill="#1A0845"/>
+    <circle cx="122" cy="108" r="8" fill="#1A0845"/>
+    <!-- Highlights -->
+    <circle cx="85" cy="104" r="3.5" fill="white"/>
+    <circle cx="125" cy="104" r="3.5" fill="white"/>
+    <circle cx="86" cy="103" r="1.5" fill="white" fill-opacity="0.6"/>
+    <circle cx="126" cy="103" r="1.5" fill="white" fill-opacity="0.6"/>
+  </g>
+  <g id="avatar-mouth"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <!-- Deep space background -->
+    <circle cx="100" cy="100" r="100" fill="#1A0845"/>
+    <!-- Stars -->
+    <circle cx="22" cy="28" r="1.5" fill="white" fill-opacity="0.8"/>
+    <circle cx="168" cy="18" r="1" fill="white" fill-opacity="0.7"/>
+    <circle cx="178" cy="60" r="1.5" fill="white"/>
+    <circle cx="18" cy="160" r="1" fill="white" fill-opacity="0.6"/>
+    <circle cx="170" cy="158" r="1.5" fill="white" fill-opacity="0.8"/>
+    <circle cx="34" cy="80" r="1" fill="white" fill-opacity="0.5"/>
+    <circle cx="160" cy="86" r="1" fill="#FFD23F" fill-opacity="0.8"/>
+  </g>
+  <!-- Suit collar -->
+  <g id="avatar-body">
+    <ellipse cx="100" cy="188" rx="48" ry="20" fill="#DDDDDD"/>
+    <!-- Pikko patch -->
+    <rect x="82" y="178" width="36" height="16" rx="4" fill="#3BAFDA"/>
+    <circle cx="100" cy="186" r="5" fill="#FF6635"/>
+    <text x="100" y="189" text-anchor="middle" fill="white" font-size="6" font-weight="bold" font-family="sans-serif">PIKKO</text>
+  </g>
+  <!-- Helmet -->
+  <g id="avatar-extras">
+    <!-- Helmet shell -->
+    <circle cx="100" cy="102" r="68" fill="#E8E8E8"/>
+    <!-- Gold visor -->
+    <ellipse cx="100" cy="108" rx="52" ry="46" fill="#FFD23F" fill-opacity="0.5"/>
+    <ellipse cx="100" cy="108" rx="52" ry="46" fill="none" stroke="#FFD23F" stroke-width="4"/>
+    <!-- Visor reflections -->
+    <ellipse cx="78" cy="88" rx="14" ry="6" fill="white" fill-opacity="0.35" transform="rotate(-20,78,88)"/>
+    <ellipse cx="118" cy="80" rx="8" ry="4" fill="white" fill-opacity="0.25" transform="rotate(-15,118,80)"/>
+    <!-- Rocket icon reflection in visor -->
+    <path d="M142 100 L148 94 L154 100 L148 108Z" fill="white" fill-opacity="0.3"/>
+    <!-- Tiny stars on helmet edge -->
+    <circle cx="48" cy="82" r="3" fill="#FFD23F"/>
+    <circle cx="152" cy="82" r="3" fill="#FFD23F"/>
+    <circle cx="38" cy="110" r="2" fill="#FFD23F" fill-opacity="0.7"/>
+    <circle cx="162" cy="110" r="2" fill="#FFD23F" fill-opacity="0.7"/>
+  </g>
+  <!-- Face through visor -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="110" rx="40" ry="38" fill="#C99670"/>
+    <!-- Cheek blush -->
+    <ellipse cx="78" cy="120" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.45"/>
+    <ellipse cx="122" cy="120" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.45"/>
+  </g>
+  <!-- Eyes -->
+  <g id="avatar-eyes">
+    <circle cx="88" cy="108" r="10" fill="#1A2B3C"/>
+    <circle cx="112" cy="108" r="10" fill="#1A2B3C"/>
+    <circle cx="91" cy="105" r="3.5" fill="white"/>
+    <circle cx="115" cy="105" r="3.5" fill="white"/>
+  </g>
+  <!-- Smile -->
+  <g id="avatar-mouth">
+    <path d="M88 124 Q100 134 112 124" stroke="#A07050" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#FFE5DD"/>
+  </g>
+  <!-- Body/shoulders -->
+  <g id="avatar-body">
+    <ellipse cx="100" cy="185" rx="44" ry="22" fill="#FF8C42"/>
+    <ellipse cx="100" cy="185" rx="24" ry="12" fill="#FFF0E8"/>
+  </g>
+  <!-- Ears -->
+  <g id="avatar-extras">
+    <ellipse cx="62" cy="58" rx="18" ry="22" fill="#FF8C42" transform="rotate(-12,62,58)"/>
+    <ellipse cx="62" cy="58" rx="10" ry="13" fill="#FFB5A0" transform="rotate(-12,62,58)"/>
+    <!-- Right ear slightly bent forward -->
+    <ellipse cx="138" cy="55" rx="18" ry="22" fill="#FF8C42" transform="rotate(8,138,55)"/>
+    <ellipse cx="138" cy="55" rx="10" ry="13" fill="#FFB5A0" transform="rotate(8,138,55)"/>
+    <ellipse cx="141" cy="48" rx="9" ry="6" fill="#FF8C42" transform="rotate(30,141,48)"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="110" rx="54" ry="52" fill="#FF8C42"/>
+    <!-- Stripes on face -->
+    <path d="M68 78 Q72 72 70 66" stroke="#C0541A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M78 72 Q82 65 81 58" stroke="#C0541A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M132 78 Q128 72 130 66" stroke="#C0541A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M122 72 Q118 65 119 58" stroke="#C0541A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M100 70 Q104 63 102 56" stroke="#C0541A" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- White muzzle -->
+    <ellipse cx="100" cy="128" rx="28" ry="20" fill="#FFF0E8"/>
+    <!-- Cheek stripes -->
+    <path d="M72 115 Q64 118 60 124" stroke="#C0541A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M128 115 Q136 118 140 124" stroke="#C0541A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Eyes -->
+  <g id="avatar-eyes">
+    <circle cx="83" cy="104" r="11" fill="#1A2B3C"/>
+    <circle cx="117" cy="104" r="11" fill="#1A2B3C"/>
+    <circle cx="86" cy="101" r="4" fill="white"/>
+    <circle cx="120" cy="101" r="4" fill="white"/>
+    <circle cx="87" cy="100" r="2" fill="white" fill-opacity="0.7"/>
+    <circle cx="121" cy="100" r="2" fill="white" fill-opacity="0.7"/>
+  </g>
+  <!-- Mouth -->
+  <g id="avatar-mouth">
+    <circle cx="100" cy="130" r="6" fill="#FF8BA0"/>
+    <path d="M88 134 Q100 142 112 134" stroke="#C0541A" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tiny fang -->
+    <path d="M96 139 L95 145" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

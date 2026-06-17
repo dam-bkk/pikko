@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#F0E8FF"/>
+  </g>
+  <!-- Body -->
+  <g id="avatar-body">
+    <ellipse cx="100" cy="190" rx="46" ry="20" fill="#7C4DFF"/>
+    <ellipse cx="100" cy="184" rx="30" ry="14" fill="#9B6DFF" fill-opacity="0.5"/>
+  </g>
+  <!-- Wizard hat -->
+  <g id="avatar-extras">
+    <!-- Hat brim -->
+    <ellipse cx="98" cy="68" rx="56" ry="14" fill="#7C4DFF"/>
+    <!-- Hat cone — tilted -->
+    <path d="M98 68 L84 20 L120 14 L110 68Z" fill="#7C4DFF"/>
+    <path d="M84 20 L120 14" stroke="#5A30CC" stroke-width="2" fill="none"/>
+    <!-- Gold star on hat -->
+    <path d="M106 32 l2.4 6.6 7 0 -5.6 4 2.2 6.6 -5.8-4.2 -5.8 4.2 2.2-6.6 -5.6-4 7 0z" fill="#FFD23F"/>
+    <!-- Sparkles around hat -->
+    <circle cx="72" cy="48" r="3" fill="#FFD23F" fill-opacity="0.8"/>
+    <circle cx="136" cy="30" r="2.5" fill="#FFD23F" fill-opacity="0.7"/>
+    <circle cx="126" cy="50" r="2" fill="#FFD23F" fill-opacity="0.6"/>
+    <circle cx="78" cy="28" r="2" fill="#FFD23F" fill-opacity="0.6"/>
+    <!-- Magic spark at hat tip -->
+    <circle cx="101" cy="12" r="5" fill="#FFD23F" fill-opacity="0.9"/>
+    <path d="M101 12 L104 5 M101 12 L108 10 M101 12 L105 18" stroke="#FFD23F" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="124" rx="50" ry="48" fill="#F5D5B0"/>
+    <!-- Hat partially covers forehead -->
+    <rect x="50" y="68" width="100" height="30" fill="#7C4DFF"/>
+    <!-- Brim covers right side of face (peeking effect) -->
+    <ellipse cx="98" cy="68" rx="56" ry="14" fill="#7C4DFF"/>
+    <!-- Freckles -->
+    <circle cx="84" cy="118" r="2.5" fill="#D4A878" fill-opacity="0.6"/>
+    <circle cx="90" cy="122" r="2" fill="#D4A878" fill-opacity="0.5"/>
+    <circle cx="116" cy="118" r="2.5" fill="#D4A878" fill-opacity="0.6"/>
+    <circle cx="110" cy="122" r="2" fill="#D4A878" fill-opacity="0.5"/>
+    <!-- Ear left (visible) -->
+    <ellipse cx="50" cy="124" rx="9" ry="11" fill="#F5D5B0"/>
+    <!-- Right ear partially hidden by hat -->
+    <ellipse cx="150" cy="122" rx="8" ry="10" fill="#F5D5B0"/>
+  </g>
+  <!-- Eyes — one hidden by hat brim, one big curious green -->
+  <g id="avatar-eyes">
+    <!-- Left eye peeking -->
+    <circle cx="83" cy="100" r="10" fill="#4CC97C"/>
+    <circle cx="83" cy="100" r="5" fill="#1A2B3C"/>
+    <circle cx="85" cy="97" r="3" fill="white"/>
+    <!-- Right eye mostly covered by hat - just a hint -->
+    <circle cx="118" cy="96" r="5" fill="#1A2B3C"/>
+    <circle cx="119" cy="94" r="2" fill="white"/>
+  </g>
+  <!-- Mouth — small smile -->
+  <g id="avatar-mouth">
+    <path d="M88 128 Q100 138 112 128" stroke="#C09070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

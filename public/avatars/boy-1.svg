@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#FFE0EC"/>
+  </g>
+  <!-- Body / shoulders / t-shirt -->
+  <g id="avatar-body">
+    <ellipse cx="100" cy="190" rx="50" ry="24" fill="#FFD23F"/>
+    <!-- Star on chest -->
+    <path d="M100 178 l3 8 8 0 -6 5 2 8 -7-5 -7 5 2-8 -6-5 8 0z" fill="white" transform="scale(0.7) translate(44,78)"/>
+  </g>
+  <!-- Hair -->
+  <g id="avatar-extras">
+    <!-- Bowl cut hair -->
+    <ellipse cx="100" cy="82" rx="50" ry="30" fill="#1A0845"/>
+    <rect x="50" y="82" width="100" height="20" fill="#1A0845"/>
+    <!-- Cowlick -->
+    <path d="M120 64 Q128 54 124 48" stroke="#1A0845" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="118" rx="50" ry="52" fill="#F5D5B0"/>
+    <!-- Ear left -->
+    <ellipse cx="50" cy="118" rx="10" ry="12" fill="#F5D5B0"/>
+    <ellipse cx="50" cy="118" rx="5" ry="7" fill="#E8B98A"/>
+    <!-- Ear right -->
+    <ellipse cx="150" cy="118" rx="10" ry="12" fill="#F5D5B0"/>
+    <ellipse cx="150" cy="118" rx="5" ry="7" fill="#E8B98A"/>
+    <!-- Cheek blush -->
+    <ellipse cx="72" cy="130" rx="12" ry="7" fill="#FFB5A0" fill-opacity="0.5"/>
+    <ellipse cx="128" cy="130" rx="12" ry="7" fill="#FFB5A0" fill-opacity="0.5"/>
+  </g>
+  <!-- Eyes -->
+  <g id="avatar-eyes">
+    <circle cx="84" cy="112" r="10" fill="#6B4423"/>
+    <circle cx="116" cy="112" r="10" fill="#6B4423"/>
+    <circle cx="87" cy="109" r="3.5" fill="white"/>
+    <circle cx="119" cy="109" r="3.5" fill="white"/>
+  </g>
+  <!-- Mouth — tongue sticking out playfully -->
+  <g id="avatar-mouth">
+    <path d="M88 130 Q100 138 112 130" stroke="#C09070" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tongue -->
+    <ellipse cx="100" cy="137" rx="7" ry="5" fill="#FF8BA0"/>
+    <path d="M93 137 L107 137" stroke="#FF6090" stroke-width="1.2" fill="none"/>
+  </g>
+</svg>

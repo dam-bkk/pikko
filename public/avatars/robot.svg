@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#E8F4FF"/>
+  </g>
+  <!-- Body / spacesuit collar -->
+  <g id="avatar-body">
+    <rect x="62" y="170" width="76" height="30" rx="14" fill="#5B7B9C"/>
+    <rect x="72" y="174" width="56" height="22" rx="10" fill="#E8F4FF" fill-opacity="0.4"/>
+    <!-- Chest panel detail -->
+    <circle cx="88" cy="184" r="5" fill="#00D2CC"/>
+    <circle cx="100" cy="184" r="5" fill="#FFD23F"/>
+    <circle cx="112" cy="184" r="5" fill="#FF6635"/>
+  </g>
+  <!-- Headphones / ear protrusions -->
+  <g id="avatar-extras">
+    <rect x="36" y="96" width="16" height="28" rx="8" fill="#4A6A8C"/>
+    <rect x="148" y="96" width="16" height="28" rx="8" fill="#4A6A8C"/>
+    <!-- Antenna -->
+    <line x1="100" y1="56" x2="100" y2="40" stroke="#5B7B9C" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="100" cy="38" r="7" fill="#FF6635"/>
+    <!-- Glowing dot on antenna -->
+    <circle cx="100" cy="38" r="4" fill="#FF8C35" fill-opacity="0.8"/>
+  </g>
+  <!-- Head (robot box shape, softened) -->
+  <g id="avatar-head">
+    <rect x="46" y="60" width="108" height="104" rx="24" fill="#5B7B9C"/>
+    <!-- Face panel -->
+    <rect x="54" y="68" width="92" height="88" rx="18" fill="#E8F4FF" fill-opacity="0.15"/>
+    <!-- Smile line (LED) -->
+    <path d="M76 140 Q100 152 124 140" stroke="#4CC97C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- LED indicator dots -->
+    <circle cx="72" cy="156" r="4" fill="#4CC97C"/>
+    <circle cx="84" cy="160" r="3" fill="#4CC97C" fill-opacity="0.5"/>
+  </g>
+  <!-- Eyes — LED screen squares -->
+  <g id="avatar-eyes">
+    <!-- Left eye: cyan screen -->
+    <rect x="62" y="90" width="30" height="24" rx="6" fill="#00D2CC"/>
+    <rect x="64" y="92" width="26" height="20" rx="4" fill="#00B8B0"/>
+    <!-- Scan line animation suggestion -->
+    <line x1="64" y1="99" x2="90" y2="99" stroke="white" stroke-width="2" stroke-opacity="0.6"/>
+    <circle cx="77" cy="102" r="5" fill="white" fill-opacity="0.8"/>
+    <!-- Right eye: yellow screen -->
+    <rect x="108" y="90" width="30" height="24" rx="6" fill="#FFD23F"/>
+    <rect x="110" y="92" width="26" height="20" rx="4" fill="#EFBF2F"/>
+    <line x1="110" y1="99" x2="136" y2="99" stroke="white" stroke-width="2" stroke-opacity="0.5"/>
+    <circle cx="123" cy="102" r="5" fill="white" fill-opacity="0.7"/>
+  </g>
+  <g id="avatar-mouth"/>
+</svg>

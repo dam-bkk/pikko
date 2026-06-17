@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="pikko-character pikko-ngoh">
+  <!-- Background transparent (character used on various backgrounds) -->
+
+  <!-- Tail (wag mid-point) -->
+  <g id="tail">
+    <path d="M140 160 Q168 140 172 118 Q176 104 165 100" stroke="#E8A598" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <!-- White tail tip -->
+    <circle cx="164" cy="98" r="8" fill="white"/>
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <!-- Main body caramel -->
+    <ellipse cx="100" cy="158" rx="52" ry="42" fill="#E8A598"/>
+    <!-- Cream belly patch -->
+    <ellipse cx="100" cy="164" rx="32" ry="28" fill="#F5E0D0"/>
+    <!-- Red collar -->
+    <rect x="66" y="108" width="68" height="14" rx="7" fill="#FF4D4D"/>
+    <!-- Gold star tag -->
+    <circle cx="100" cy="122" r="9" fill="#FFD23F"/>
+    <path d="M100 116 l1.8 4.9 5.2 0 -4.2 3 1.6 4.9 -4.4-3.2 -4.4 3.2 1.6-4.9 -4.2-3 5.2 0z" fill="#FF6635"/>
+    <!-- Front left paw -->
+    <ellipse cx="72" cy="190" rx="14" ry="10" fill="#E8A598"/>
+    <ellipse cx="72" cy="192" rx="11" ry="7" fill="#F5E0D0"/>
+    <!-- Paw toes -->
+    <circle cx="64" cy="194" r="4" fill="#E8A598"/>
+    <circle cx="72" cy="196" r="4" fill="#E8A598"/>
+    <circle cx="80" cy="194" r="4" fill="#E8A598"/>
+    <!-- Front right paw -->
+    <ellipse cx="128" cy="190" rx="14" ry="10" fill="#E8A598"/>
+    <ellipse cx="128" cy="192" rx="11" ry="7" fill="#F5E0D0"/>
+    <circle cx="120" cy="194" r="4" fill="#E8A598"/>
+    <circle cx="128" cy="196" r="4" fill="#E8A598"/>
+    <circle cx="136" cy="194" r="4" fill="#E8A598"/>
+  </g>
+
+  <!-- Ears -->
+  <g id="ear-left">
+    <!-- Floppy left ear (down) -->
+    <path d="M56 62 Q36 46 38 80 Q42 100 62 96" fill="#E8A598"/>
+    <path d="M56 66 Q42 52 43 80 Q46 96 62 93" fill="#D49080" fill-opacity="0.4"/>
+  </g>
+  <g id="ear-right">
+    <!-- Right ear slightly perked -->
+    <path d="M144 62 Q158 44 156 68 Q152 84 138 90" fill="#E8A598"/>
+    <path d="M144 66 Q155 50 153 70 Q150 83 138 88" fill="#D49080" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <ellipse cx="100" cy="80" rx="56" ry="52" fill="#E8A598"/>
+    <!-- White muzzle -->
+    <ellipse cx="100" cy="96" rx="30" ry="22" fill="white"/>
+    <!-- Nose -->
+    <ellipse cx="100" cy="88" rx="10" ry="7" fill="#1A2B3C"/>
+    <!-- Nose highlight -->
+    <circle cx="96" cy="86" r="3" fill="#3D4F60" fill-opacity="0.5"/>
+    <circle cx="104" cy="86" r="2" fill="white" fill-opacity="0.4"/>
+    <!-- Cheek patches — slightly warmer -->
+    <ellipse cx="68" cy="88" rx="10" ry="8" fill="#D49080" fill-opacity="0.3"/>
+    <ellipse cx="132" cy="88" rx="10" ry="8" fill="#D49080" fill-opacity="0.3"/>
+  </g>
+
+  <!-- Eyes — big with white highlight -->
+  <g id="eyes">
+    <circle cx="80" cy="72" r="14" fill="white"/>
+    <circle cx="120" cy="72" r="14" fill="white"/>
+    <circle cx="80" cy="74" r="9" fill="#1A2B3C"/>
+    <circle cx="120" cy="74" r="9" fill="#1A2B3C"/>
+    <!-- Shine -->
+    <circle cx="84" cy="69" r="4" fill="white"/>
+    <circle cx="124" cy="69" r="4" fill="white"/>
+    <circle cx="84" cy="69" r="2" fill="white" fill-opacity="0.7"/>
+    <!-- Eyebrows — expressive -->
+    <path d="M68 62 Q80 57 88 62" stroke="#C08070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M112 62 Q120 57 132 62" stroke="#C08070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Mouth — tongue out side -->
+  <g id="mouth">
+    <!-- Smile -->
+    <path d="M80 102 Q100 116 120 102" stroke="#C08070" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Pink tongue out left side -->
+    <ellipse cx="88" cy="112" rx="10" ry="12" fill="#FFB5A0" transform="rotate(-20 88 112)"/>
+    <path d="M82 106 Q86 116 94 114" stroke="#FF8C9F" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

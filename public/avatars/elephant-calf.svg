@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#E8F4FF"/>
+  </g>
+  <g id="avatar-body">
+    <ellipse cx="100" cy="186" rx="42" ry="20" fill="#B8A8C9"/>
+  </g>
+  <!-- Ears -->
+  <g id="avatar-extras">
+    <ellipse cx="52" cy="100" rx="26" ry="36" fill="#B8A8C9" transform="rotate(-10,52,100)"/>
+    <ellipse cx="52" cy="100" rx="16" ry="24" fill="#E0D0E8" transform="rotate(-10,52,100)"/>
+    <ellipse cx="148" cy="100" rx="26" ry="36" fill="#B8A8C9" transform="rotate(10,148,100)"/>
+    <ellipse cx="148" cy="100" rx="16" ry="24" fill="#E0D0E8" transform="rotate(10,148,100)"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <circle cx="100" cy="108" r="58" fill="#B8A8C9"/>
+    <!-- Trunk curled up making heart shape -->
+    <path d="M100 148 Q84 162 82 172 Q80 180 88 182 Q96 184 100 176 Q104 184 112 182 Q120 180 118 172 Q116 162 100 148Z" fill="#9A8AB8"/>
+    <path d="M100 148 Q84 162 82 172 Q80 180 88 182 Q96 184 100 176" stroke="#7A6A98" stroke-width="1.5" fill="none"/>
+    <!-- Nostrils -->
+    <ellipse cx="94" cy="170" rx="3" ry="4" fill="#7A6A98"/>
+    <ellipse cx="106" cy="170" rx="3" ry="4" fill="#7A6A98"/>
+    <!-- Tiny tusks -->
+    <path d="M84 150 Q76 158 78 162" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M116 150 Q124 158 122 162" stroke="#FFF8E8" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Eyes — happy closed crescents with lashes -->
+  <g id="avatar-eyes">
+    <path d="M76 102 Q83 95 90 102" stroke="#2D1A4A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M110 102 Q117 95 124 102" stroke="#2D1A4A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Lashes -->
+    <line x1="76" y1="102" x2="73" y2="97" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <line x1="83" y1="97" x2="82" y2="92" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <line x1="90" y1="102" x2="93" y2="97" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <line x1="110" y1="102" x2="107" y2="97" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <line x1="117" y1="97" x2="117" y2="92" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <line x1="124" y1="102" x2="127" y2="97" stroke="#2D1A4A" stroke-width="2" stroke-linecap="round"/>
+    <!-- Cheek blush -->
+    <ellipse cx="72" cy="118" rx="12" ry="7" fill="#FF8BB0" fill-opacity="0.35"/>
+    <ellipse cx="128" cy="118" rx="12" ry="7" fill="#FF8BB0" fill-opacity="0.35"/>
+  </g>
+  <g id="avatar-mouth"/>
+</svg>

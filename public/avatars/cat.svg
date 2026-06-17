@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#FFF4DC"/>
+  </g>
+  <g id="avatar-body">
+    <ellipse cx="100" cy="186" rx="40" ry="18" fill="#F5D5B0"/>
+  </g>
+  <!-- Ears -->
+  <g id="avatar-extras">
+    <polygon points="60,75 72,42 88,75" fill="#F5D5B0"/>
+    <polygon points="64,72 72,50 82,72" fill="#FFB5A0"/>
+    <polygon points="112,75 128,42 140,75" fill="#F5D5B0"/>
+    <polygon points="116,72 128,50 136,72" fill="#FFB5A0"/>
+    <!-- Orange patches -->
+    <ellipse cx="84" cy="80" rx="10" ry="8" fill="#FFB591" fill-opacity="0.6"/>
+    <ellipse cx="76" cy="70" rx="7" ry="6" fill="#FFB591" fill-opacity="0.5"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="112" rx="52" ry="50" fill="#F5D5B0"/>
+    <!-- Orange patch on cheek -->
+    <ellipse cx="128" cy="108" rx="14" ry="12" fill="#FFB591" fill-opacity="0.5"/>
+    <!-- Muzzle -->
+    <ellipse cx="100" cy="130" rx="22" ry="16" fill="#FFF0E8"/>
+    <!-- Whisker dots -->
+    <circle cx="80" cy="128" r="2.5" fill="#C09070"/>
+    <circle cx="76" cy="134" r="2.5" fill="#C09070"/>
+    <circle cx="80" cy="140" r="2.5" fill="#C09070"/>
+    <circle cx="120" cy="128" r="2.5" fill="#C09070"/>
+    <circle cx="124" cy="134" r="2.5" fill="#C09070"/>
+    <circle cx="120" cy="140" r="2.5" fill="#C09070"/>
+  </g>
+  <!-- Eyes — one winking -->
+  <g id="avatar-eyes">
+    <!-- Left eye: winking (closed crescent) -->
+    <path d="M74 105 Q83 98 92 105" stroke="#2D1A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Right eye: open, green -->
+    <circle cx="116" cy="106" r="12" fill="#4CC97C"/>
+    <ellipse cx="116" cy="106" rx="5" ry="9" fill="#1A2B3C"/>
+    <circle cx="119" cy="103" r="3.5" fill="white"/>
+    <circle cx="120" cy="103" r="1.5" fill="white" fill-opacity="0.7"/>
+    <!-- Blush -->
+    <ellipse cx="76" cy="120" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.4"/>
+    <ellipse cx="124" cy="120" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.4"/>
+  </g>
+  <!-- Nose + mouth -->
+  <g id="avatar-mouth">
+    <polygon points="100,126 95,131 105,131" fill="#FF8BA0"/>
+    <path d="M90 134 Q100 142 110 134" stroke="#C09070" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

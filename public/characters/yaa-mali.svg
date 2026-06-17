@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" class="pikko-character pikko-yaa-mali">
+  <!-- Body — seated posture -->
+  <g id="body">
+    <!-- Sage blouse with floral embroidery -->
+    <ellipse cx="100" cy="200" rx="58" ry="50" fill="#B8E5C8"/>
+    <!-- Floral embroidery hints -->
+    <circle cx="80" cy="190" r="4" fill="#4CC97C" fill-opacity="0.5"/>
+    <circle cx="80" cy="190" r="2" fill="#FFD23F" fill-opacity="0.7"/>
+    <circle cx="118" cy="195" r="3.5" fill="#4CC97C" fill-opacity="0.4"/>
+    <circle cx="118" cy="195" r="1.5" fill="#FFD23F" fill-opacity="0.6"/>
+    <circle cx="96" cy="210" r="3" fill="#4CC97C" fill-opacity="0.4"/>
+    <circle cx="96" cy="210" r="1.5" fill="#FFD23F" fill-opacity="0.6"/>
+    <!-- Navy long skirt -->
+    <ellipse cx="100" cy="248" rx="60" ry="28" fill="#1A2B3C"/>
+    <rect x="40" y="235" width="120" height="40" rx="4" fill="#1A2B3C"/>
+    <!-- Skirt fold lines -->
+    <path d="M55 240 Q70 255 60 270" stroke="#2D3F54" stroke-width="1.5" fill="none"/>
+    <path d="M145 240 Q130 255 140 270" stroke="#2D3F54" stroke-width="1.5" fill="none"/>
+    <!-- Feet / sandals visible at bottom -->
+    <ellipse cx="82" cy="275" rx="16" ry="6" fill="#C09050"/>
+    <ellipse cx="118" cy="275" rx="16" ry="6" fill="#C09050"/>
+  </g>
+  <!-- Open book held in hands -->
+  <g id="book">
+    <!-- Book left page -->
+    <path d="M44 200 Q52 196 100 200 L100 238 Q52 234 44 238Z" fill="#FFF9EE" stroke="#E0D0B0" stroke-width="1"/>
+    <!-- Book right page -->
+    <path d="M156 200 Q148 196 100 200 L100 238 Q148 234 156 238Z" fill="#FFF9EE" stroke="#E0D0B0" stroke-width="1"/>
+    <!-- Book spine -->
+    <rect x="98" y="198" width="4" height="42" rx="2" fill="#D4A060"/>
+    <!-- Text lines on left page -->
+    <line x1="56" y1="210" x2="94" y2="208" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="56" y1="216" x2="94" y2="214" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="56" y1="222" x2="86" y2="220" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Text lines on right page — Thai chars simplified -->
+    <line x1="106" y1="210" x2="148" y2="208" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="106" y1="216" x2="148" y2="214" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="106" y1="222" x2="138" y2="220" stroke="#B0A090" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Left hand holding book -->
+    <ellipse cx="50" cy="226" rx="12" ry="9" fill="#E8B98A"/>
+    <!-- Right hand holding book -->
+    <ellipse cx="150" cy="226" rx="12" ry="9" fill="#E8B98A"/>
+  </g>
+  <!-- Left arm -->
+  <g id="left-arm">
+    <path d="M58 160 Q40 180 48 226" stroke="#B8E5C8" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M58 160 Q40 180 48 226" stroke="#E8B98A" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Right arm -->
+  <g id="right-arm">
+    <path d="M142 160 Q160 180 152 226" stroke="#B8E5C8" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M142 160 Q160 180 152 226" stroke="#E8B98A" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Head -->
+  <g id="head">
+    <ellipse cx="100" cy="100" rx="50" ry="50" fill="#E8B98A"/>
+    <!-- Ears -->
+    <ellipse cx="50" cy="100" rx="9" ry="12" fill="#E8B98A"/>
+    <ellipse cx="150" cy="100" rx="9" ry="12" fill="#E8B98A"/>
+    <!-- Gold dot earrings -->
+    <circle cx="50" cy="100" r="5" fill="#FFD23F"/>
+    <circle cx="150" cy="100" r="5" fill="#FFD23F"/>
+    <!-- Silver-grey hair in low bun -->
+    <ellipse cx="100" cy="58" rx="46" ry="20" fill="#A8A8A8"/>
+    <!-- Bun at back / top-center -->
+    <ellipse cx="100" cy="44" rx="22" ry="16" fill="#B8B8B8"/>
+    <circle cx="100" cy="38" r="10" fill="#C0C0C0"/>
+    <!-- Bun pin accent -->
+    <circle cx="100" cy="36" r="3" fill="#FFD23F"/>
+    <!-- Gentle smile lines — NOT harsh wrinkles -->
+    <path d="M68 108 Q64 112 68 116" stroke="#D4A878" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M132 108 Q136 112 132 116" stroke="#D4A878" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Cheek blush soft -->
+    <ellipse cx="70" cy="115" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.3"/>
+    <ellipse cx="130" cy="115" rx="10" ry="6" fill="#FFB5A0" fill-opacity="0.3"/>
+  </g>
+  <!-- Reading glasses -->
+  <g id="glasses">
+    <circle cx="84" cy="102" r="12" fill="none" stroke="#1A2B3C" stroke-width="2.5"/>
+    <circle cx="116" cy="102" r="12" fill="none" stroke="#1A2B3C" stroke-width="2.5"/>
+    <line x1="96" y1="102" x2="104" y2="102" stroke="#1A2B3C" stroke-width="2.5"/>
+    <line x1="72" y1="102" x2="62" y2="100" stroke="#1A2B3C" stroke-width="2" stroke-linecap="round"/>
+    <line x1="128" y1="102" x2="138" y2="100" stroke="#1A2B3C" stroke-width="2" stroke-linecap="round"/>
+    <!-- Lens tint -->
+    <circle cx="84" cy="102" r="11" fill="#3BAFDA" fill-opacity="0.08"/>
+    <circle cx="116" cy="102" r="11" fill="#3BAFDA" fill-opacity="0.08"/>
+  </g>
+  <!-- Eyes — closed crescents (happy) -->
+  <g id="eyes">
+    <path d="M76 102 Q84 96 92 102" stroke="#1A2B3C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M108 102 Q116 96 124 102" stroke="#1A2B3C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Mouth — peaceful smile -->
+  <g id="mouth">
+    <path d="M86 124 Q100 134 114 124" stroke="#C09070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

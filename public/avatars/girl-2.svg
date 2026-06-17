@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g id="avatar-bg">
+    <circle cx="100" cy="100" r="100" fill="#E8F5E9"/>
+  </g>
+  <!-- Body / green t-shirt + waving hand -->
+  <g id="avatar-body">
+    <ellipse cx="100" cy="190" rx="48" ry="22" fill="#4CC97C"/>
+    <!-- Wave hand bottom right -->
+    <g transform="translate(148,162) rotate(-20)">
+      <ellipse cx="0" cy="6" rx="9" ry="12" fill="#F5D5B0"/>
+      <line x1="-2" y1="0" x2="-3" y2="-12" stroke="#F5D5B0" stroke-width="5" stroke-linecap="round"/>
+      <line x1="3" y1="0" x2="5" y2="-12" stroke="#F5D5B0" stroke-width="5" stroke-linecap="round"/>
+      <line x1="7" y1="2" x2="10" y2="-9" stroke="#F5D5B0" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- Hair — long flowing with flower clip -->
+  <g id="avatar-extras">
+    <!-- Hair top -->
+    <ellipse cx="100" cy="80" rx="50" ry="28" fill="#1A0845"/>
+    <!-- Side hair panels -->
+    <ellipse cx="54" cy="120" rx="16" ry="44" fill="#1A0845"/>
+    <ellipse cx="146" cy="120" rx="16" ry="44" fill="#1A0845"/>
+    <!-- Yellow flower clip on left -->
+    <circle cx="64" cy="80" r="10" fill="#FFD23F"/>
+    <circle cx="56" cy="76" r="6" fill="#FFD23F"/>
+    <circle cx="72" cy="76" r="6" fill="#FFD23F"/>
+    <circle cx="64" cy="70" r="6" fill="#FFD23F"/>
+    <circle cx="64" cy="80" r="5" fill="#FF6635"/>
+    <!-- Ear studs -->
+    <circle cx="52" cy="118" r="4" fill="#FFD23F"/>
+    <circle cx="148" cy="118" r="4" fill="#FFD23F"/>
+  </g>
+  <!-- Head -->
+  <g id="avatar-head">
+    <ellipse cx="100" cy="116" rx="50" ry="52" fill="#F5D5B0"/>
+    <ellipse cx="50" cy="116" rx="9" ry="11" fill="#F5D5B0"/>
+    <ellipse cx="150" cy="116" rx="9" ry="11" fill="#F5D5B0"/>
+    <!-- Cheek blush -->
+    <ellipse cx="72" cy="128" rx="12" ry="7" fill="#FFB5A0" fill-opacity="0.4"/>
+    <ellipse cx="128" cy="128" rx="12" ry="7" fill="#FFB5A0" fill-opacity="0.4"/>
+  </g>
+  <!-- Eyes — almond-shaped, gentle -->
+  <g id="avatar-eyes">
+    <ellipse cx="84" cy="110" rx="11" ry="9" fill="#6B4423"/>
+    <ellipse cx="116" cy="110" rx="11" ry="9" fill="#6B4423"/>
+    <circle cx="87" cy="107" r="3.5" fill="white"/>
+    <circle cx="119" cy="107" r="3.5" fill="white"/>
+    <!-- Subtle lashes -->
+    <path d="M73 106 Q84 99 95 106" stroke="#3D2010" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M105 106 Q116 99 127 106" stroke="#3D2010" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Mouth — gentle smile -->
+  <g id="avatar-mouth">
+    <path d="M88 130 Q100 140 112 130" stroke="#C09070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
